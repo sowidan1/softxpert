@@ -1,7 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\V1\AuthController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', static function () {
-    return 'hi';
-});
+route::post('/login', [AuthController::class, 'login']);
