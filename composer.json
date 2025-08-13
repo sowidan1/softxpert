@@ -30,7 +30,8 @@
         },
         "files": [
             "app/Helpers/apiError.php",
-            "app/Helpers/apiSuccess.php"
+            "app/Helpers/apiSuccess.php",
+            "app/Helpers/permissions.php"
         ]
     },
     "autoload-dev": {
